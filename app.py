@@ -3,7 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 
-st.header(":1234:TempHumidity-APP")
+st.header(" :chart_with_upwards_trend: TempHumidity-APP")
 st.markdown('_Kindly input the data displayed on the clock in the form below_ :point_down:')
 
 # Create a connection object, which will fetch the required information from our secrets.toml
