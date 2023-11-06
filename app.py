@@ -3,8 +3,8 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 
-st.header("TempHumidity-APP")
-st.markdown('_Kindly input the data displayed on the clock in the form below_')
+st.header(":1234:TempHumidity-APP")
+st.markdown('_Kindly input the data displayed on the clock in the form below_ :point_down:')
 
 # Create a connection object, which will fetch the required information from our secrets.toml
 conn = st.connection("gsheets", type=GSheetsConnection)
